@@ -1,0 +1,4 @@
+host, api-mifit-cn.huami.com, reject
+host, cdn.awsbj0.fds.api.mi-img.com, reject
+host, jifen.shenghuoquan.cn, reject
+host, quanguo.shenghuoquan.cn, reject
