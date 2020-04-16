@@ -1,0 +1,66 @@
+[filter_remote]
+https://raw.githubusercontent.com/limbopro/Profiles.bak/master/Quantumult/X/Filter/Global.list, tag=Global, force-policy=机场专线, enabled=true
+https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Apple.list, tag=Apple, enabled=true
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=野比/去广告, force-policy=reject, enabled=true
+
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list, tag=野比/去广告（测试版）, force-policy=reject, enabled=true
+##野比去广告规则 进入分流订阅界面可右滑禁用
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Unbreak.list, tag=神机/去欺诈（默认禁用）, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Advertising.list, tag=神机/去广告（默认禁用）, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Hijacking.list, tag=神机/反劫持（默认禁用）, enabled=true
+
+##新增神机去广告规则 21.10.2019 进入分流订阅界面可右滑启用
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Bahamut.list, tag=巴姆雷特（动画疯）, force-policy=Bahamut, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/limbopro/QuantumultX.list, tag=机场专线（80+主流机场）, force-policy=机场专线, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Pornhub.list, tag=Pornhub, force-policy=Pornhub, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/YouTube.list, tag=Youtube, force-policy=Youtube, enabled=true
+
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Google.list, tag=Google, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Telegram.list, tag=Telegram, force-policy=Proxy, enabled=true
+
+
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Netflix.list, tag=Netflix, force-policy=Netflix, enabled=true
+
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Spotify.list, tag=Spotify, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/HBO.list, tag=HBO, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Hulu.list, tag=Hulu, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Amazon.list, tag=Amazon, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Pandora.list, tag=Pandora, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Twitch.list, tag=Twitch, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/ViuTV.list, tag=ViuTV, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/BBC_iPlayer.list, tag=BBC_iPlayer, force-policy=Proxy, enabled=true
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Speedtest.list, tag=Speedtest（测速，默认禁用）, force-policy=PROXY, enabled=false
+
+https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/BacktoCN.list, tag=CN（回国，默认禁用）, force-policy=PROXY, enabled=false
+
+;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.txt, tag=Sample, force-policy=your-policy-name, enabled=true
+
+#
+# Params “tag” and “enabled” are optional.
+#
+[rewrite_remote]
+;https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag=NobyDa（Rewrite/解锁脚本）, enabled=true
+
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=Line1（Rewrite去广告/默认禁用）, enabled=true
+
+##野比去广告Rewrite
+
+;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.txt, tag=Sample, enabled=true
