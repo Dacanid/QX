@@ -1,0 +1,7 @@
+#捕获
+https://app-api.niu.com/v5/advertisement/get_advertisements?_=1587013910&lat=27.971126&lng=120.730945
+#重写
+^https:\/\/app-api\.niu\.com\/v\d\/advertisement\/  url reject-200
+
+
+
