@@ -1,4 +1,27 @@
+
+host, m.mygolbs.com, reject
+host, api-mifit.huami.com, reject
 host, api-mifit-cn.huami.com, reject
 host, cdn.awsbj0.fds.api.mi-img.com, reject
 host, jifen.shenghuoquan.cn, reject
 host, quanguo.shenghuoquan.cn, reject
+host, market.m.taobao.com, direct
+host, 203.119.175.254, reject
+geoip, cn, direct
+;user-agent, ?abc*, proxy
+;host, www.google.com, proxy
+;host-keyword, adsite, reject
+;host-suffix, googleapis.com, proxy
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+final, proxy
+#商店
+host, api.smoot.apple.cn, 🇺🇸 US
+host, p14-buy.itunes.apple.com, 🇺🇸 US
+#屏蔽更新
+host, mesu.apple.com, reject
+host, gdmf.apple.com, reject
+host, updates-http.cdn-apple.com, reject
