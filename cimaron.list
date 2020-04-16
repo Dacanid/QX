@@ -1,8 +1,11 @@
-
+#掌上公交
+host, quanguo.mygolbs.com, reject
 host, m.mygolbs.com, reject
+#小米手环
 host, api-mifit.huami.com, reject
 host, api-mifit-cn.huami.com, reject
 host, cdn.awsbj0.fds.api.mi-img.com, reject
+#我看行
 host, jifen.shenghuoquan.cn, reject
 host, quanguo.shenghuoquan.cn, reject
 host, market.m.taobao.com, direct
@@ -18,10 +21,10 @@ ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 final, proxy
-#商店
+#商店走线路
 host, api.smoot.apple.cn, 🇺🇸 US
 host, p14-buy.itunes.apple.com, 🇺🇸 US
-#屏蔽更新
+#屏蔽iOS更新
 host, mesu.apple.com, reject
 host, gdmf.apple.com, reject
 host, updates-http.cdn-apple.com, reject
