@@ -1,3 +1,16 @@
+#未知
+
+host-suffix, 100qu.net, reject
+host, 100qu.net, reject
+host, img13.360buyimg.com, reject
+host, app.adjust.com, reject
+host, dispatcher.is.autonavi.com, reject
+host, api.map.baidu.com, reject
+
+
+
+#7toys
+host, image.wifenxiao.com, direct
 #掌上公交
 host, quanguo.mygolbs.com, reject
 host, m.mygolbs.com, reject
