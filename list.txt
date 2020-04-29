@@ -1,6 +1,20 @@
 [filter_remote]
-https://raw.githubusercontent.com/limbopro/Profiles.bak/master/Quantumult/X/Filter/Global.list, tag=Global, force-policy=机场专线, enabled=true
-https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Apple.list, tag=Apple, enabled=true
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Liby.txt, tag=域名、IP, enabled=true
+
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Apple_CDN.txt, tag=Apple资源, enabled=true
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Apple_API.txt, tag=Apple服务, enabled=true
+
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/AsianMedia.txt, tag=Asia媒体, enabled=true
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/GlobalMedia.txt, tag=国际媒体, force-policy=A,   enabled=true
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Domestic.txt, tag=国内网页, enabled=true
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Global.txt, tag=国际网页, force-policy=A, enabled=true
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Filter/Region.txt, tag=修正, enabled=true
+
+
+https://raw.githubusercontent.com/demo2099/QTXScripts/master/filter/NeteaseMusic.list, tag=解锁网易云音乐, force-policy=🎸解锁网易云音乐, enabled=true
+
+;https://raw.githubusercontent.com/limbopro/Profiles.bak/master/Quantumult/X/Filter/Global.list, tag=Global, force-policy=机场专线, enabled=true
+;https://raw.githubusercontent.com/ConnersHua/Profiles/master/Quantumult/X/Filter/Apple.list, tag=Apple, enabled=true
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRule.list, tag=野比/去广告, force-policy=reject, enabled=true
 
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/AdRuleTest.list, tag=野比/去广告（测试版）, force-policy=reject, enabled=true
@@ -14,7 +28,7 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/H
 
 ##新增神机去广告规则 21.10.2019 进入分流订阅界面可右滑启用
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Bahamut.list, tag=巴姆雷特（动画疯）, force-policy=Bahamut, enabled=true
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Bahamut.list, tag=巴姆雷特（动画疯）, force-policy=Bahamut, enabled=true
 
 https://raw.githubusercontent.com/limbopro/Profiles/master/limbopro/QuantumultX.list, tag=机场专线（80+主流机场）, force-policy=机场专线, enabled=true
 
@@ -24,32 +38,30 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/M
 
 ;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Google.list, tag=Google, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Telegram.list, tag=Telegram, force-policy=Proxy, enabled=true
 
 
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Netflix.list, tag=Netflix, force-policy=Netflix, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Netflix.list, tag=Netflix, force-policy=Netflix, enabled=true
 
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Spotify.list, tag=Spotify, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Spotify.list, tag=Spotify, force-policy=Proxy, enabled=true
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/HBO.list, tag=HBO, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/HBO.list, tag=HBO, force-policy=Proxy, enabled=true
-
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Hulu.list, tag=Hulu, force-policy=Proxy, enabled=true
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Hulu.list, tag=Hulu, force-policy=Proxy, enabled=true
 
 https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Amazon.list, tag=Amazon, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Pandora.list, tag=Pandora, force-policy=Proxy, enabled=true
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Pandora.list, tag=Pandora, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Twitch.list, tag=Twitch, force-policy=Proxy, enabled=true
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/Twitch.list, tag=Twitch, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/ViuTV.list, tag=ViuTV, force-policy=Proxy, enabled=true
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/ViuTV.list, tag=ViuTV, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/BBC_iPlayer.list, tag=BBC_iPlayer, force-policy=Proxy, enabled=true
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Media/BBC_iPlayer.list, tag=BBC_iPlayer, force-policy=Proxy, enabled=true
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Speedtest.list, tag=Speedtest（测速，默认禁用）, force-policy=PROXY, enabled=false
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/Speedtest.list, tag=Speedtest（测速，默认禁用）, force-policy=PROXY, enabled=false
 
-https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/BacktoCN.list, tag=CN（回国，默认禁用）, force-policy=PROXY, enabled=false
+;https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/BacktoCN.list, tag=CN（回国，默认禁用）, force-policy=PROXY, enabled=false
 
 ;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.txt, tag=Sample, force-policy=your-policy-name, enabled=true
 
@@ -57,10 +69,24 @@ https://raw.githubusercontent.com/limbopro/Profiles/master/Quantumult/X/Filter/B
 # Params “tag” and “enabled” are optional.
 #
 [rewrite_remote]
-;https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag=NobyDa（Rewrite/解锁脚本）, enabled=true
+https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt, tag=URL重写（eHpo）, enabled=true
+https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Q-Search_All_in_one.conf, tag=Qearch, enabled=true
+;https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Q-Search.list, tag=搜索重置, enabled=false
+https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Js.conf, tag=NobyDa（Rewrite/解锁脚本）, enabled=true
+
 
 https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf, tag=Line1（Rewrite去广告/默认禁用）, enabled=true
 
 ##野比去广告Rewrite
 
-;https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.txt, tag=Sample, enabled=true
+https://raw.githubusercontent.com/crossutility/Quantumult-X/master/sample-import-rewrite.txt, tag=Sample, enabled=true
+#
+# Only obfs=http, obfs=ws, obfs=wss can have optional “obfs-uri” field.
+# When using obfs=ws and obfs=wss the server side can be deployed by v2ray-plugin with mux = 0 or by v2ray-core.
+#
+[server_local]
+# 配置本地节点
+
+shadowsocks=music.desperadoj.com:30003, method=aes-128-gcm, password=desperadoj.com, fast-open=false, udp-relay=false, tag=🎧 解锁网易云音乐
+http=106.52.127.72:19951, fast-open=false, udp-relay=false, tag=🎧 解锁网易云音乐2
+http=music.desperadoj.com:30002, username=Netease Music, password=none, fast-open=false, udp-relay=false, tag=🎧 解锁网易云音乐3
