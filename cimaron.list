@@ -41,3 +41,56 @@ host, p14-buy.itunes.apple.com, 🇺🇸 US
 host, mesu.apple.com, reject
 host, gdmf.apple.com, reject
 host, updates-http.cdn-apple.com, reject
+
+
+
+#bilibili
+# 189及以前版本
+;^https:\/\/(www|live)\.bilibili\.com\/?.? url script-response-body bilibili.cookie.js
+# 190及以后版本
+;^https:\/\/(www|live)\.bilibili\.com\/?.? url script-request-header bilibili.cookie.js
+
+#smzdm
+# 189及以前版本
+;^https:\/\/www\.smzdm\.com\/?.? url script-response-body smzdm.cookie.js
+# 190及以后版本
+;^https:\/\/www\.smzdm\.com\/?.? url script-request-header smzdm.cookie.js
+
+#顺丰
+
+# [商店版]
+;^https:\/\/sf-integral-sign-in.weixinjia.net\/app\/index url script-request-header sfexpress.cookie.js
+;^https:\/\/mcs-mimp-web.sf-express.com\/mcs-mimp\/share\/(.*?)Redirect url script-request-header sfexpress.cookie.js
+
+#10000
+# 190及以后版本
+;^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo url script-request-header 10000.cookie.js
+;^https:\/\/wapside.189.cn:9001\/api\/home\/homeInfo url script-response-body 10000.cookie.js
+
+# 注意获取Cookie有两条脚本
+;^http:\/\/wx.10086.cn\/website\/taskCenter\/index\? url script-request-header 10086.cookie.js
+;^http:\/\/wx.10086.cn\/website\/taskCenter\/sign\? url script-request-header 10086.cookie.js
+
+#邮储银行
+
+;^https?+:\/\/static\.psbc\.com:8090\/mbank_f\/ url reject-200
+;^https?+:\/\/mbank\.psbc\.com:80\/mbank_f\/channel\/ url reject-200
+
+
+[task_local]
+#bilibili
+;50 16 * * * bilibili.js
+# 如需银瓜子转硬币，添加以下内容 
+;50 16 * * * bilibili.silver2coin.js
+
+#smzdm
+;50 16 * * * smzdm.js
+
+#sf
+;50 16 * * * sfexpress.js
+
+#10000
+;50 16 * * * 10000.js
+
+#10086
+;50 16 * * * 10086.js
