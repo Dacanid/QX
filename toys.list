@@ -11,7 +11,7 @@
  - DOMAIN,bb-order.com,🔰 Proxy
  - DOMAIN,toysheart.asia,🔰 Proxy
  - DOMAIN,archiveofourown.org,🔰 Proxy
-
+ - DOMAIN,ajax.aspnetcdn.com,🔰 Proxy
 
  - DOMAIN,ridejapan.net,Proxies
  - DOMAIN,nipporigift.net,Proxies
@@ -26,3 +26,4 @@
  - DOMAIN,bb-order.com,Proxies
  - DOMAIN,toysheart.asia,Proxies
  - DOMAIN,archiveofourown.org,Proxies
+ - DOMAIN,ajax.aspnetcdn.com,Proxies
