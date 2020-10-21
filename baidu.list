@@ -1,10 +1,11 @@
+#Baidu Map
+
 host, zt.baidu.com, reject
 host, oil.baidu.com, reject
 host, sofire.baidu.com, reject
 host, hmma.baidu.com, reject
 
-
-
+#Baidu Map Spare
 ;https://map.baidu.com
 ;https://zt.baidu.com
 ;https://newclient.map.baidu.com
@@ -15,3 +16,12 @@ host, hmma.baidu.com, reject
 ;https://itsdata.map.baidu.com
 ;https://hmma.baidu.com
 ;https://loc.map.baidu.com
+
+#Baidu Pan
+host, tcbox.baidu.com, reject
+host, crab.baidu.com, reject
+host, sp0.baidu.com, reject
+host, novelapi.baidu.com, reject
+host, qapm.baidu.com, reject
+host, mbd.baidu.com, reject
+host, update.pan.baidu.com, reject
