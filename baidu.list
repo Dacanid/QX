@@ -4,6 +4,7 @@ host, zt.baidu.com, reject
 host, oil.baidu.com, reject
 host, sofire.baidu.com, reject
 host, hmma.baidu.com, reject
+host, dss0.bdstatic.com, reject
 
 #Baidu Map Spare
 ;https://map.baidu.com
