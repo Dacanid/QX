@@ -3,3 +3,15 @@ host, oil.baidu.com, reject
 host, sofire.baidu.com, reject
 host, hmma.baidu.com, reject
 
+
+
+;https://map.baidu.com
+;https://zt.baidu.com
+;https://newclient.map.baidu.com
+;https://oil.baidu.com
+;https://sofire.baidu.com
+;https://httpdns.baidubce.com
+;https://newvector.map.baidu.com
+;https://itsdata.map.baidu.com
+;https://hmma.baidu.com
+;https://loc.map.baidu.com
