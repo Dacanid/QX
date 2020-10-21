@@ -1,0 +1,5 @@
+host, zt.baidu.com, reject
+host, oil.baidu.com, reject
+host, sofire.baidu.com, reject
+host, hmma.baidu.com, reject
+
