@@ -1,5 +1,7 @@
-#Baidu Map
+#Baidu Map Reject
+host, dss0.bdstatic.com, reject
 
+#Baidu Map Other
 host, zt.baidu.com, reject
 host, oil.baidu.com, reject
 host, sofire.baidu.com, reject
@@ -18,7 +20,7 @@ host, dss0.bdstatic.com, reject
 ;https://hmma.baidu.com
 ;https://loc.map.baidu.com
 
-#Baidu Pan
+#Baidu Pan Other
 host, tcbox.baidu.com, reject
 host, crab.baidu.com, reject
 host, sp0.baidu.com, reject
