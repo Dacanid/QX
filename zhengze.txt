@@ -18,3 +18,10 @@ app-api.niu.com
 \/表示\\或者\
 
 https://www.runoob.com/regexp/regexp-metachar.html
+
+
+＃“reject”返回没有内容的HTTP状态代码404。
+＃“ reject-200”返回HTTP状态代码200，不包含任何内容。
+＃“ reject-img”返回HTTP状态码200，内容为1px gif。
+＃“ reject-dict”返回HTTP状态代码200，其中包含空json对象的内容。
+＃“ reject-array”返回HTTP状态代码200，内容为空json数组。
