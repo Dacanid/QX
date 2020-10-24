@@ -12,6 +12,9 @@ app-api.niu.com
 \d	
 匹配一个数字字符。等价于 [0-9]。
 
+.	
+匹配除换行符（\n、\r）之外的任何单个字符。要匹配包括 '\n' 在内的任何字符，请使用像"(.|\n)"的模式。
+
 \/表示\\或者\
 
 https://www.runoob.com/regexp/regexp-metachar.html
