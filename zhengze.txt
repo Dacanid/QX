@@ -6,3 +6,12 @@ https://app-api.niu.com/v5/advertisement/get_advertisements?_=1587013910&lat=27.
 app-api.niu.com
 
 
+
+\v	
+匹配一个垂直制表符。等价于 \x0b 和 \cK。
+\d	
+匹配一个数字字符。等价于 [0-9]。
+
+\/表示\\或者\
+
+https://www.runoob.com/regexp/regexp-metachar.html
