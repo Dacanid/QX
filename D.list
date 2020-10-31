@@ -21,7 +21,9 @@ host, m.mygolbs.com, reject
 #小米手环
 host, api-mifit.huami.com, reject
 host, api-mifit-cn.huami.com, reject
+host, api-mifit-cn2.huami.com, reject
 host, cdn.awsbj0.fds.api.mi-img.com, reject
+
 #我看行
 host, jifen.shenghuoquan.cn, reject
 host, quanguo.shenghuoquan.cn, reject
