@@ -5,6 +5,9 @@ host, riotgames.com, 🇯🇵 JP
 
 #网易云音乐
 host-suffix, music.126.net, direct
+#饿了么
+host, adashx.m.taobao.com, reject
+host, app-monitor.ele.me, reject
 
 #未知
 host-suffix, 100qu.net, reject
@@ -12,6 +15,12 @@ host, 100qu.net, reject
 host, img13.360buyimg.com, reject
 host, app.adjust.com, reject
 ;host, dispatcher.is.autonavi.com, reject
+host, jb.aptso.cn, A
+host-suffix, https://static.psbc.com:8090/mbank_f/appload, reject
+host, *.tiktokv.com, 💻 国外影视
+host, log.snssdk.com, direct
+host, snssdk.com, direct
+host, *.googlevideo.com, 💻 国外影视
 
 #7toys
 host, image.wifenxiao.com, direct
