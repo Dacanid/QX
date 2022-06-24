@@ -16,7 +16,7 @@ host, img13.360buyimg.com, reject
 host, app.adjust.com, reject
 ;host, dispatcher.is.autonavi.com, reject
 host, jb.aptso.cn, A
-host-suffix, https://static.psbc.com:8090/mbank_f/appload, reject
+#host-suffix, https://static.psbc.com:8090/mbank_f/appload, reject
 host, *.tiktokv.com, 💻 国外影视
 host, log.snssdk.com, direct
 host, snssdk.com, direct
