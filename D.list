@@ -1,7 +1,4 @@
-#LOL
-host, riotcdn.net, 🇯🇵 JP
-host, wr.pvp.net, 🇯🇵 JP
-host, riotgames.com, 🇯🇵 JP
+
 
 #网易云音乐
 host-suffix, music.126.net, direct
@@ -50,8 +47,8 @@ ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 final, A
 #商店走线路
-host, api.smoot.apple.cn, 🇺🇸 US
-host, p14-buy.itunes.apple.com, 🇺🇸 US
+host, api.smoot.apple.cn, 🇺🇸 美国节点
+host, p14-buy.itunes.apple.com, 🇺🇸 美国节点
 
 #屏蔽iOS更新
 ;host, mesu.apple.com, reject
