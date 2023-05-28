@@ -1,4 +1,4 @@
 #政府官网
-host, gov.cn, 🎯 全球直连
-host, gov.hk, 🎯 全球直连
-host, gov.uk, 🎯 全球直连
+host-suffix,gov.cn,🎯 全球直连
+host-suffix,gov.hk,🎯 全球直连
+host-suffix,gov.uk,🎯 全球直连
