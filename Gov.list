@@ -1,4 +1,6 @@
 #政府官网
+user-agent, .*gov.*, 🎯 全球直连
+user-agent, .*go.kr.*, 🎯 全球直连
 host, www.gov.cn, 🎯 全球直连
 host, www.gov.hk, 🎯 全球直连
 host, www.gov.uk, 🎯 全球直连
