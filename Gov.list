@@ -1,3 +1,17 @@
+#HSBC
+host, cdntm.hsbc.com.hk, 🎯 全球直连
+host, rbwm-api.hsbc.com.hk, 🎯 全球直连
+host, m.mobilex-static.hsbc.com.hk, 🎯 全球直连
+host, insurance.hsbc.com.hk, 🎯 全球直连
+host, rbwm-api.hsbc.com.hk, 🎯 全球直连
+#Boc
+host, mobile.boccc.com.hk, 🎯 全球直连
+host, ewa.bochk.com, 🎯 全球直连
+host, mobile.boccc.com.hk, 🎯 全球直连
+host, *.bochk.com, 🎯 全球直连
+host, www.bochk.com, 🎯 全球直连
+host, mba.bochk.com, 🎯 全球直连
+host, mb.bochk.com, 🎯 全球直连
 #政府官网
 user-agent, .*gov.*, 🎯 全球直连
 user-agent, .*go.kr.*, 🎯 全球直连
