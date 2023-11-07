@@ -1,5 +1,5 @@
 #小说
-host, www.69shu.com, 🌍 国外媒体
+host, www.69shu.com, proxy
 #Wechat
 ip-asn, 132203, direct
 
@@ -15,12 +15,12 @@ host, 100qu.net, reject
 host, img13.360buyimg.com, reject
 host, app.adjust.com, reject
 ;host, dispatcher.is.autonavi.com, reject
-host, jb.aptso.cn, A
+host, jb.aptso.cn, proxy
 #host-suffix, https://static.psbc.com:8090/mbank_f/appload, reject
-host, *.tiktokv.com, 💻 国外影视
+host, *.tiktokv.com, proxy
 host, log.snssdk.com, direct
 host, snssdk.com, direct
-host, *.googlevideo.com, 💻 国外影视
+host, *.googlevideo.com, proxy
 
 #7toys
 host, image.wifenxiao.com, direct
@@ -44,14 +44,14 @@ geoip, cn, direct
 ;host-keyword, adsite, reject
 ;host-suffix, googleapis.com, proxy
 ip-cidr, 10.0.0.0/8, direct
-ip-cidr, 127.0.0.0/8, A
+ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 172.16.0.0/12, direct
 ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 final, A
 #商店走线路
-host, api.smoot.apple.cn, 🇺🇸 美国节点
-host, p14-buy.itunes.apple.com, 🇺🇸 美国节点
+host, api.smoot.apple.cn, proxy
+host, p14-buy.itunes.apple.com, proxy
 
 #屏蔽iOS更新
 ;host, mesu.apple.com, reject
