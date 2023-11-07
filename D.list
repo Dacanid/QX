@@ -4,54 +4,54 @@ host, www.69shu.com, proxy
 ;ip-asn, 132203, direct
 
 #网易云音乐
-host-suffix, music.126.net, direct
+;host-suffix, music.126.net, direct
 #饿了么
-host, adashx.m.taobao.com, reject
-host, app-monitor.ele.me, reject
+;host, adashx.m.taobao.com, reject
+;host, app-monitor.ele.me, reject
 
 #未知
-host-suffix, 100qu.net, reject
-host, 100qu.net, reject
-host, img13.360buyimg.com, reject
-host, app.adjust.com, reject
+;host-suffix, 100qu.net, reject
+;host, 100qu.net, reject
+;host, img13.360buyimg.com, reject
+;host, app.adjust.com, reject
 ;host, dispatcher.is.autonavi.com, reject
-host, jb.aptso.cn, proxy
+;host, jb.aptso.cn, proxy
 #host-suffix, https://static.psbc.com:8090/mbank_f/appload, reject
-host, *.tiktokv.com, proxy
-host, log.snssdk.com, direct
-host, snssdk.com, direct
-host, *.googlevideo.com, proxy
+;host, *.tiktokv.com, proxy
+;host, log.snssdk.com, direct
+;host, snssdk.com, direct
+;host, *.googlevideo.com, proxy
 
 #7toys
-host, image.wifenxiao.com, direct
+;host, image.wifenxiao.com, direct
 #掌上公交
-host, quanguo.mygolbs.com, reject
-host, m.mygolbs.com, reject
+;host, quanguo.mygolbs.com, reject
+;host, m.mygolbs.com, reject
 #小米手环
-host, api-mifit.huami.com, reject
-host, api-mifit-cn.huami.com, reject
-host, api-mifit-cn2.huami.com, reject
-host, cdn.awsbj0.fds.api.mi-img.com, reject
+;host, api-mifit.huami.com, reject
+;host, api-mifit-cn.huami.com, reject
+;host, api-mifit-cn2.huami.com, reject
+;host, cdn.awsbj0.fds.api.mi-img.com, reject
 
 #我看行
-host, jifen.shenghuoquan.cn, reject
-host, quanguo.shenghuoquan.cn, reject
-host, market.m.taobao.com, direct
-host, 203.119.175.254, reject
-geoip, cn, direct
+;host, jifen.shenghuoquan.cn, reject
+;host, quanguo.shenghuoquan.cn, reject
+;host, market.m.taobao.com, direct
+;host, 203.119.175.254, reject
+;geoip, cn, direct
 ;user-agent, ?abc*, proxy
 ;host, www.google.com, proxy
 ;host-keyword, adsite, reject
 ;host-suffix, googleapis.com, proxy
-ip-cidr, 10.0.0.0/8, direct
-ip-cidr, 127.0.0.0/8, direct
-ip-cidr, 172.16.0.0/12, direct
-ip-cidr, 192.168.0.0/16, direct
-ip-cidr, 224.0.0.0/24, direct
-final, A
+;ip-cidr, 10.0.0.0/8, direct
+;ip-cidr, 127.0.0.0/8, direct
+;ip-cidr, 172.16.0.0/12, direct
+;ip-cidr, 192.168.0.0/16, direct
+;ip-cidr, 224.0.0.0/24, direct
+;final, A
 #商店走线路
-host, api.smoot.apple.cn, proxy
-host, p14-buy.itunes.apple.com, proxy
+;host, api.smoot.apple.cn, proxy
+;host, p14-buy.itunes.apple.com, proxy
 
 #屏蔽iOS更新
 ;host, mesu.apple.com, reject
@@ -67,7 +67,7 @@ host, zt.baidu.com, reject
 host, oil.baidu.com, reject
 host, sofire.baidu.com, reject
 host, hmma.baidu.com, reject
-host, dss0.bdstatic.com, reject
+
 
 #Baidu Map Spare
 ;https://map.baidu.com
@@ -83,10 +83,10 @@ host, dss0.bdstatic.com, reject
 ;host, api.map.baidu.com, reject
 
 #Baidu Pan Other
-host, tcbox.baidu.com, reject
-host, crab.baidu.com, reject
-host, sp0.baidu.com, reject
-host, novelapi.baidu.com, reject
-host, qapm.baidu.com, reject
-host, mbd.baidu.com, reject
-host, update.pan.baidu.com, reject
+;host, tcbox.baidu.com, reject
+;host, crab.baidu.com, reject
+;host, sp0.baidu.com, reject
+;host, novelapi.baidu.com, reject
+;host, qapm.baidu.com, reject
+;host, mbd.baidu.com, reject
+;host, update.pan.baidu.com, reject
