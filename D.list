@@ -1,7 +1,7 @@
 #小说
 host, www.69shu.com, proxy
 #Wechat
-ip-asn, 132203, direct
+;ip-asn, 132203, direct
 
 #网易云音乐
 host-suffix, music.126.net, direct
