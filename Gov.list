@@ -1,30 +1,30 @@
 #HSBC
-host, cdnbc-wup.hsbc.com.hk, 🎯 全球直连
-host, cdntm.hsbc.com.hk, 🎯 全球直连
-host, rbwm-api.hsbc.com.hk, 🎯 全球直连
-host, m.mobilex-static.hsbc.com.hk, 🎯 全球直连
-host, insurance.hsbc.com.hk, 🎯 全球直连
-host, rbwm-api.hsbc.com.hk, 🎯 全球直连
+host, cdnbc-wup.hsbc.com.hk, direct
+host, cdntm.hsbc.com.hk, direct
+host, rbwm-api.hsbc.com.hk, direct
+host, m.mobilex-static.hsbc.com.hk, direct
+host, insurance.hsbc.com.hk, direct
+host, rbwm-api.hsbc.com.hk, direct
 #Boc
-host, fio.bochk.com, 🎯 全球直连
-host, ocs.bochk.com, 🎯 全球直连
-host, mobile.boccc.com.hk, 🎯 全球直连
-host, ewa.bochk.com, 🎯 全球直连
-host, mobile.boccc.com.hk, 🎯 全球直连
-host, *.bochk.com, 🎯 全球直连
-host, www.bochk.com, 🎯 全球直连
-host, mba.bochk.com, 🎯 全球直连
-host, mb.bochk.com, 🎯 全球直连
+host, fio.bochk.com, direct
+host, ocs.bochk.com, direct
+host, mobile.boccc.com.hk, direct
+host, ewa.bochk.com, direct
+host, mobile.boccc.com.hk, direct
+host, *.bochk.com, direct
+host, www.bochk.com, direct
+host, mba.bochk.com, direct
+host, mb.bochk.com, direct
 #政府官网
-user-agent, .*gov.*, 🎯 全球直连
-user-agent, .*go.kr.*, 🎯 全球直连
-host, www.gov.cn, 🎯 全球直连
-host, www.gov.hk, 🎯 全球直连
-host, www.gov.tw, 🎯 全球直连
-host, www.gov.uk, 🎯 全球直连
-host, www.go.kr, 🎯 全球直连
-host-suffix,gov.cn,🎯 全球直连
-host-suffix,gov.hk,🎯 全球直连
-host-suffix,gov.tw,🎯 全球直连
-host-suffix,gov.uk,🎯 全球直连
-host-suffix,go.kr,🎯 全球直连
+user-agent, .*gov.*, direct
+user-agent, .*go.kr.*, direct
+host, www.gov.cn, direct
+host, www.gov.hk, direct
+host, www.gov.tw, direct
+host, www.gov.uk, direct
+host, www.go.kr, direct
+host-suffix,gov.cn,direct
+host-suffix,gov.hk,direct
+host-suffix,gov.tw,direct
+host-suffix,gov.uk,direct
+host-suffix,go.kr,direct
