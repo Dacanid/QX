@@ -1,5 +1,5 @@
 #交易所
-host-suffix, bitfinex.com, NoUS
-host-suffix, okex.com, NoUS
-host-suffix, okx.com, NoUS
-host-suffix, binance.com, NoUS
+host-suffix, bitfinex.com
+host-suffix, okex.com
+host-suffix, okx.com
+host-suffix, binance.com
