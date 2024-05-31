@@ -20,6 +20,9 @@ DOMAIN, copilot.microsoft.com
 DOMAIN, sydney.bing.com
 DOMAIN, www.bing.com
 
+# Perplexity
+DOMAIN-SUFFIX, perplexity.ai
+
 # Gemini
 DOMAIN, bard.google.com
 DOMAIN, gemini.google.com
