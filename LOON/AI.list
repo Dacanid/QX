@@ -14,6 +14,8 @@ DOMAIN, production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX, oaistatic.com
 DOMAIN-SUFFIX, oaiusercontent.com
 
+# Poe
+DOMAIN-SUFFIX, poe.com
 
 # Copilot
 DOMAIN, api.githubcopilot.com
